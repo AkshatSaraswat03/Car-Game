@@ -1,0 +1,25 @@
+#endScreen{
+    font-family: sans-serif;
+    position: absolute;
+    top:200px;
+    left:50px;
+    text-align: center;
+    background-color: red;
+    padding: 50px;
+    border-radius: 5px;
+    transform: scale(0,0);
+    transition: all .5s;
+}
+#endScreen h1, h2{
+    margin: 10px;
+}
+#scoreBoard {
+    font-family: sans-serif;
+    position: absolute;
+    top:0px;
+    left:0px;
+    text-align: center;
+    color: rgba(255, 255, 255, .8);
+    padding: 30px;
+    font-size: 20px;
+}
